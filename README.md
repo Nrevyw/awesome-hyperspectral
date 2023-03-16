@@ -4,28 +4,77 @@
 
 > A curated collection of awesome projects, papers, and tools for hyperspectral imagery
 
+Some more awesome GIS/Machine Learning/Hyperspectral lists to take a look at:
+- [satellite-image-deep-learning](https://github.com/satellite-image-deep-learning/techniques)
+- [awesome-hyperspectral-deep-learning](https://github.com/IRCAD/awesome-hyperspectral-deep-learning)
+- [awesome-geospatial](https://github.com/sacridini/Awesome-Geospatial)
+- [awesome-spectral-indices](https://github.com/awesome-spectral-indices/awesome-spectral-indices)
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Software](#software)
+- [Papers](#papers)
+- [Data Sources](#data_sources)
+- [Resources](#resources)
+- [Contributing](#contribute)
 
 
-## Section
+## Software
 
-About this section. Optional. Keep this short and focus on the list.
+Software, libraries, and code related to building awesome stuff with hyperspectral imagery!
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+### Software
+Standalone applications or plugins for applications.
+
+- [QGIS](https://qgis.org/en/site/) - A free and open source geographic information system capable of processing hyperspectral imagery.
+- [EnMAP-Box](https://enmap-box.readthedocs.io/en/latest/) - Python plugin for QGIS designed to process and visualize hyperspectral remote sensing data.
+- [AVHYAS](https://sites.google.com/view/avhyas-sac-isro/home) - A free & open source QGIS plugin for advanced hyperspectral image analysis
+- [Google Earth Engine](https://earthengine.google.com/) - Cloud computing platform for geospatial data processing and analysis (can also process hyperspectral data!).
+
+### Libraries
+Libraries for software development in various programming languages.
+
+#### Python
+- [rasterio](https://rasterio.readthedocs.io/en/latest/index.html) - GDAL-based Python library capable of reading hyperspectral data cubes.
+- [Xarray](https://docs.xarray.dev/en/stable/) - Xarray makes working with labelled multi-dimensional arrays in Python simple, efficient, and fun!
+- [Xarray-spatial](https://xarray-spatial.org/index.html) - Omplements common raster analysis functions using Numba and provides an easy-to-install, easy-to-extend codebase for raster analysis.
+- [Spectral Python (SPY)](https://www.spectralpython.net/) - Pure Python module for processing hyperspectral image data.
+- [PySptools](https://pysptools.sourceforge.io/index.html) - Tools for hyperspectral imaging
+- [rastervision](https://rastervision.io/) - An open-source library for geospatial machine learning projects.  Many deep learning models are capable of using hyperspectral imagery.
+- [EarthPy](https://earthpy.readthedocs.io/en/latest/index.html) - A Python package that makes it easier to plot and work with spatial raster and vector data using open source tools.
+- [spyndex](https://github.com/awesome-spectral-indices/spyndex) - Allows use of awesome-spectral-indices formulae in Python.
 
 
-## Another Section
+#### R
+- [hsdar](https://rdrr.io/cran/hsdar/) - Manage, analyse, and simulate hyperspectral data.
 
-### Subsection
+## Papers
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+### Spectral Indices
+- **Optical Remote Sensing Indexes of Soil Moisture: Evaluation and Improvement Based on Aircraft Experiment Observations** (2021), Sun et al. [[PDF]](https://www.researchgate.net/publication/356348833_Optical_Remote_Sensing_Indexes_of_Soil_Moisture_Evaluation_and_Improvement_Based_on_Aircraft_Experiment_Observations)
 
+### Machine Learning
+- **A survey: Deep learning for hyperspectral image classification with few labeled samples** (2021), Jia et al. [[PDF]](https://www.sciencedirect.com/science/article/pii/S0925231221004033)
+- **Machine learning based hyperspectral image analysis: A survey** (2019), Gewali et al. [[PDF]](https://arxiv.org/abs/1802.08701)
+- **Hyperspectral Image Classification using Machine Learning Approaches** (2020), Dasi et al. [[HTML]](https://ieeexplore.ieee.org/document/9120945)
+- **Hyperspectral Image Classification and Dimensionality Reduction: An Orthogonal Subspace Projection Approach** (1994), Harsanyi et al. [[PDF]](https://www2.umbc.edu/rssipl/pdf/TGRS/tgrs.7_94.pdf)
+- **Dimensionality reduction of hyperspectral images of vegetation and crops based on self-organized maps** (2019), Hidalgo et al. [[HTML]](https://www.sciencedirect.com/science/article/pii/S221431732030189X)
+
+## Data Sources
+The imagery has to come from somewhere!
+
+- [AVIRIS](https://aviris.jpl.nasa.gov/) - Airbone Visible/Infrared Imaging Spectrometer by NASA, in servce since the early 2000s
+- [PRISMA](https://www.eoportal.org/satellite-missions/prisma-hyperspectral) - Medium-resolution (30m) hyperspectral satellite launched in 2019 by the Italian Space Agency
+- [EnMAP](https://www.enmap.org/) - Medium-resolution (30m) hyperspectral satellite launched in 2022 by the Earth Observation Center of the German Aerospace Center
+- [Wyvern](https://wyvern.space/) - Canadian space company developing high-resolution hyperspectral satellites with deployable optics. Our first launch is coming up soon! :)
+- [Pixxel](https://www.pixxel.space/) - Space data company building a constellation of hyperspectral satellites.
+- [Orbital Sidekick](https://www.orbitalsidekick.com/) - Persistent monitoring service with constellation of hyperspectral satellites
+
+## Resources
+Additional sources for information related to hyperspectral data processing
+
+- [Wyvern Knowledge Base](https://knowledge.wyvern.space/) - The go-to guide for all things hyperspectral! Now with sample data!
+- [L3Harris Documentation](https://www.l3harrisgeospatial.com/docs/BackgroundVegetationIndices.html) - L3Harris' software is paid and closed source, however their documentation provides an excellent source of indices and tutorials for processing hyperspectral imagery.
 
 ## Contribute
 

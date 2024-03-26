@@ -30,6 +30,7 @@ Standalone applications or plugins for applications.
 - [EnMAP-Box](https://enmap-box.readthedocs.io/en/latest/) - Python plugin for QGIS designed to process and visualize hyperspectral remote sensing data.
 - [AVHYAS](https://sites.google.com/view/avhyas-sac-isro/home) - A free & open source QGIS plugin for advanced hyperspectral image analysis
 - [Google Earth Engine](https://earthengine.google.com/) - Cloud computing platform for geospatial data processing and analysis (can also process hyperspectral data!).
+- [Planetary Computer](https://planetarycomputer.microsoft.com/) - Multi-petabyte catalog of geospatial data combined with cloud processing tools in Python and R.
 
 ### Libraries
 Libraries for software development in various programming languages.
@@ -41,6 +42,7 @@ Libraries for software development in various programming languages.
 - [Spectral Python (SPY)](https://www.spectralpython.net/) - Pure Python module for processing hyperspectral image data.
 - [PySptools](https://pysptools.sourceforge.io/index.html) - Tools for hyperspectral imaging
 - [rastervision](https://rastervision.io/) - An open-source library for geospatial machine learning projects.  Many deep learning models are capable of using hyperspectral imagery.
+- [torchgeo](https://github.com/microsoft/torchgeo) - An open-source library for training machine learning models using PyTorch on geospatial data.
 - [EarthPy](https://earthpy.readthedocs.io/en/latest/index.html) - A Python package that makes it easier to plot and work with spatial raster and vector data using open source tools.
 - [spyndex](https://github.com/awesome-spectral-indices/spyndex) - Allows use of awesome-spectral-indices formulae in Python.
 
@@ -52,6 +54,8 @@ Libraries for software development in various programming languages.
 
 ### Spectral Indices
 - **Optical Remote Sensing Indexes of Soil Moisture: Evaluation and Improvement Based on Aircraft Experiment Observations** (2021), Sun et al. [[PDF]](https://www.researchgate.net/publication/356348833_Optical_Remote_Sensing_Indexes_of_Soil_Moisture_Evaluation_and_Improvement_Based_on_Aircraft_Experiment_Observations)
+- **Red edge spectral measurements from sugar maple leaves** (1993), Vogelmann, Jim & Rock, Barrett & Moss, D.M.. [[PDF]](https://www.researchgate.net/profile/Jim-Vogelmann/publication/4715958_Red_edge_spectral_measurements_from_sugar_maple_leaves/links/0046352c6f67c7264d000000/Red-edge-spectral-measurements-from-sugar-maple-leaves.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19)
+- **Comparative analysis of hyperspectral vegetation indices for remote estimation of leaf chlorophyll content and plant status** (2019), Velichkova, Kalinka & Krezhova, Dora. [[PDF]](https://www.rad-journal.org/helper/download.php?file=../papers/RadJ.2018.03.034.pdf)
 
 ### Machine Learning
 - **A survey: Deep learning for hyperspectral image classification with few labeled samples** (2021), Jia et al. [[PDF]](https://www.sciencedirect.com/science/article/pii/S0925231221004033)
@@ -61,14 +65,19 @@ Libraries for software development in various programming languages.
 - **Dimensionality reduction of hyperspectral images of vegetation and crops based on self-organized maps** (2019), Hidalgo et al. [[HTML]](https://www.sciencedirect.com/science/article/pii/S221431732030189X)
 
 ## Data Sources
-The imagery has to come from somewhere!
-
+### Imagery
 - [AVIRIS](https://aviris.jpl.nasa.gov/) - Airbone Visible/Infrared Imaging Spectrometer by NASA, in servce since the early 2000s
 - [PRISMA](https://www.eoportal.org/satellite-missions/prisma-hyperspectral) - Medium-resolution (30m) hyperspectral satellite launched in 2019 by the Italian Space Agency
 - [EnMAP](https://www.enmap.org/) - Medium-resolution (30m) hyperspectral satellite launched in 2022 by the Earth Observation Center of the German Aerospace Center
-- [Wyvern](https://wyvern.space/) - Canadian space company developing high-resolution hyperspectral satellites with deployable optics. Our first launch is coming up soon! :)
+- [Wyvern](https://wyvern.space/) - Canadian space company developing high-resolution hyperspectral satellites with deployable optics.
 - [Pixxel](https://www.pixxel.space/) - Space data company building a constellation of hyperspectral satellites.
 - [Orbital Sidekick](https://www.orbitalsidekick.com/) - Persistent monitoring service with constellation of hyperspectral satellites
+- [Planet](https://www.planet.com/products/hyperspectral/) - Mature space data company developing a constellation of 30m GSD hyperspectral satellites
+
+### Hyperspectral Signatures
+- [USGS Spectral Library](https://crustal.usgs.gov/speclab/QueryAll07a.php) - Thousands of materials compiled into an easy to search & download library.
+- [Urban Surfaces Spectral Library](https://micromet.reading.ac.uk/spectral-library/) - Library of spectral signatures focused on urban materials. Developed by the University of Reading's London Urban Meteorological Observitory.
+- [ECOSTRESS Spectral Library](https://speclib.jpl.nasa.gov/) - Library containing over 3400 natural and man made material spectra, and includes data from three other spectral libraries (Johns Hopkins, JPL, and USGS).
 
 ## Resources
 Additional sources for information related to hyperspectral data processing

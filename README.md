@@ -45,6 +45,7 @@ Libraries for software development in various programming languages.
 - [torchgeo](https://github.com/microsoft/torchgeo) - An open-source library for training machine learning models using PyTorch on geospatial data.
 - [EarthPy](https://earthpy.readthedocs.io/en/latest/index.html) - A Python package that makes it easier to plot and work with spatial raster and vector data using open source tools.
 - [spyndex](https://github.com/awesome-spectral-indices/spyndex) - Allows use of awesome-spectral-indices formulae in Python.
+- [siapy](https://github.com/siapy/siapy-lib) - A tool for efficient processing of spectral images with Python.
 
 
 #### R

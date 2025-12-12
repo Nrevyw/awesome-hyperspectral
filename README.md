@@ -45,11 +45,13 @@ Libraries for software development in various programming languages.
 - [torchgeo](https://github.com/microsoft/torchgeo) - An open-source library for training machine learning models using PyTorch on geospatial data.
 - [EarthPy](https://earthpy.readthedocs.io/en/latest/index.html) - A Python package that makes it easier to plot and work with spatial raster and vector data using open source tools.
 - [spyndex](https://github.com/awesome-spectral-indices/spyndex) - Allows use of awesome-spectral-indices formulae in Python.
-- [siapy](https://github.com/siapy/siapy-lib) - A tool for efficient processing of spectral images with Python.
-
+- [SiaPy](https://github.com/siapy/siapy-lib) - A tool for efficient processing of spectral images with Python.
 
 #### R
 - [hsdar](https://rdrr.io/cran/hsdar/) - Manage, analyse, and simulate hyperspectral data.
+
+#### Collections
+- [Hyperspectral Anomaly Detection Algorithms](https://github.com/NomanShahRaza/hyperspectral_anomaly_detection_algorithms) - HSI anomaly detection algorithms implemented in a wide variety of languages.
 
 ## Papers
 
@@ -74,6 +76,8 @@ Libraries for software development in various programming languages.
 - [Pixxel](https://www.pixxel.space/) - Space data company building a constellation of hyperspectral satellites.
 - [Orbital Sidekick](https://www.orbitalsidekick.com/) - Persistent monitoring service with constellation of hyperspectral satellites
 - [Planet](https://www.planet.com/products/hyperspectral/) - Mature space data company developing a constellation of 30m GSD hyperspectral satellites
+- [Esper](https://www.espersatellites.co/) - Australian space company building high-resolution hyperspectral satellites
+with a focus on mining.
 
 ### Hyperspectral Signatures
 - [USGS Spectral Library](https://crustal.usgs.gov/speclab/QueryAll07a.php) - Thousands of materials compiled into an easy to search & download library.
@@ -84,7 +88,7 @@ Libraries for software development in various programming languages.
 Additional sources for information related to hyperspectral data processing
 
 - [Wyvern Knowledge Base](https://knowledge.wyvern.space/) - The go-to guide for all things hyperspectral! Now with sample data!
-- [L3Harris Documentation](https://www.l3harrisgeospatial.com/docs/BackgroundVegetationIndices.html) - L3Harris' software is paid and closed source, however their documentation provides an excellent source of indices and tutorials for processing hyperspectral imagery.
+- [ENVI Documentation](https://www.nv5geospatialsoftware.com/docs/using_envi_Home.html) - NV5's software is paid and closed source, however their documentation provides an excellent source of indices and tutorials for processing hyperspectral imagery.
 
 ## Contribute
 
